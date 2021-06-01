@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Ambidexter';
+    src: url('fonts/Ambidexter_Regular.eot');
+    src: url('fonts/Ambidexter_Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Ambidexter_Regular.woff2') format('woff2'),
+        url('fonts/Ambidexter_Regular.woff') format('woff'),
+        url('fonts/Ambidexter_Regular.ttf') format('truetype');
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.text-first {
+    font-family: 'Ambidexter';
+}
+
+.text-second {
+    font-family: 'Oswald';
+}
+
+.icons-title {
+    margin-top: 60px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.icons-item {
+    flex: 1 0 25%;
+    font-size: 300px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease 0s;
+}
+
+.icons-item:hover {
+
+    transform: scale(1.2);
+}
